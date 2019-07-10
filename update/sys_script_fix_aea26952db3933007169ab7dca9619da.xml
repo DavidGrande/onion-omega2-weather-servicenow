@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Borrar</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var count = 0;
+var hum = 0;
+var tem = 0;
+
+var gr = new GlideRecord("x_307203_onion_ome_x_307203_oow_sensor_record");
+gr.query();
+while (gr.next()) {
+	hum += gr.getValue("humidity");
+	tem += gr.getValue("temperature");
+	count++;
+	gr.deleteMultiple(); 
+}
+
+var gr = new GlideRecord("x_307203_onion_ome_last_4_weeks_humidity_sensor");
+gr.initialize(); 
+gr.humidity = hum;
+gr.temperature = tem;
+gr.insert();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 21:34:48</sys_created_on>
+        <sys_id>aea26952db3933007169ab7dca9619da</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Borrar</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sys_script_fix_aea26952db3933007169ab7dca9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 21:46:20</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

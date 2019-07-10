@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>AVG - 1 Hour</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2019-06-04 20:45:16</run_start>
+        <run_time>1970-01-01 08:05:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var count = 0;
+var hum = parseFloat(0);
+var tem = parseFloat(0);
+
+var gr = new GlideRecord("x_307203_onion_ome_last_4_weeks_humidity_sensor");
+gr.query();
+while (gr.next()) {
+	hum += parseFloat(gr.getValue("humidity"));
+	tem += parseFloat(gr.getValue("temperature"));
+	count++;
+}
+
+hum /= count;
+tem /= count;
+
+var gr = new GlideRecord("x_307203_onion_ome_all_humidity_temperature");
+gr.initialize(); 
+gr.humidity = hum; 
+gr.tempeture = tem;
+gr.insert();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 22:21:57</sys_created_on>
+        <sys_id>208d655adb3933007169ab7dca961936</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AVG - 1 Hour</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sysauto_script_208d655adb3933007169ab7dca961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 22:23:48</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

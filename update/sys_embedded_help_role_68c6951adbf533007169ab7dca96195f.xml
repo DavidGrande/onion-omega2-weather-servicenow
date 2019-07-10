@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_307203_onion_ome.all_humidity_temperature_user" name="x_307203_onion_ome.all_humidity_temperature_user">e4c6951adbf533007169ab7dca96195d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 20:42:34</sys_created_on>
+        <sys_id>68c6951adbf533007169ab7dca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e4c6951adbf533007169ab7dca96195d</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_68c6951adbf533007169ab7dca96195f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 20:42:34</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

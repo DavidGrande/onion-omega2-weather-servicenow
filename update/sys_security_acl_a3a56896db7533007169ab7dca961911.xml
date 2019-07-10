@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_307203_onion_ome_x_307203_oow_sensor_record</description>
+        <name>x_307203_onion_ome_x_307203_oow_sensor_record</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 17:08:08</sys_created_on>
+        <sys_id>a3a56896db7533007169ab7dca961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_307203_onion_ome_x_307203_oow_sensor_record</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sys_security_acl_a3a56896db7533007169ab7dca961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:08:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Weather">c076115adbf533007169ab7dca961907</application>
+        <filter/>
+        <name>Last 4 Weeks - Humidity &amp;&amp; Sensors</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_307203_onion_ome.last_4_weeks_humidity_sensor_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 20:41:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c76115adbf533007169ab7dca961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Last 4 Weeks - Humidity &amp;&amp; Sensors</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sys_ui_module_8c76115adbf533007169ab7dca961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 20:41:10</sys_updated_on>
+        <table>x_307203_onion_ome_last_4_weeks_humidity_sensor</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

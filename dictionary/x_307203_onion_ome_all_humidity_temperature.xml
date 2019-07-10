@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="All - Humidity &amp;&amp; Temperature" max_length="40" name="x_307203_onion_ome_all_humidity_temperature" type="collection">
+        <element label="Humidity" max_length="40" name="humidity" type="decimal"/>
+        <element label="Temperature" max_length="40" name="temperature" type="decimal"/>
+    </element>
+</database>

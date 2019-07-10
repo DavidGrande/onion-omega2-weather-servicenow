@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Last 4 Weeks - Humidity &amp;&amp; Sensor" max_length="40" name="x_307203_onion_ome_last_4_weeks_humidity_sensor" type="collection">
+        <element label="Humidity" max_length="40" name="humidity" type="decimal"/>
+        <element label="Temperature" max_length="40" name="tempeture" type="decimal"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_307203_onion_ome.oow_sensor_record_user" name="x_307203_onion_ome.oow_sensor_record_user">3aa5ec12db7533007169ab7dca9619ae</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 17:08:06</sys_created_on>
+        <sys_id>3ea52896db7533007169ab7dca9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3aa5ec12db7533007169ab7dca9619ae</sys_name>
+        <sys_package display_value="Onion Omega2 Weather" source="x_307203_onion_ome">ca61e0d6db3533007169ab7dca96194e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion Omega2 Weather">ca61e0d6db3533007169ab7dca96194e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3ea52896db7533007169ab7dca9619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:08:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
